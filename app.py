@@ -109,8 +109,6 @@ def analyze_pitch(y: np.ndarray, sr: int) -> Tuple[float, list]:
         raise ValueError("Audio file too short (minimum 0.5 seconds required)")
 
     pitch = librosa.yin(y, fmin=50, fmax=1000, sr=sr)
-
-    # NaN, inf, negatif ve 0 dışı değerleri filtrele
     pitch = pitch[np.isfinite(pitch)]
     pitch = pitch[pitch > 0]
 
@@ -118,7 +116,6 @@ def analyze_pitch(y: np.ndarray, sr: int) -> Tuple[float, list]:
         raise ValueError("No pitch detected")
 
     return float(np.median(pitch)), pitch.tolist()
-
 
 def classify_voice(avg_pitch: float, gender: str) -> VoiceType:
     gender = gender.lower()
@@ -146,7 +143,6 @@ def classify_voice(avg_pitch: float, gender: str) -> VoiceType:
             return VoiceType.UNKNOWN
 
     return VoiceType.UNKNOWN
-
 
 # ----------------------
 # API Endpoints
@@ -221,9 +217,6 @@ def health_check():
         }
     })
 
-# ----------------------
-# Health & Default Routes
-# ----------------------
 @app.route('/')
 def home():
     return jsonify({
@@ -231,21 +224,6 @@ def home():
         'endpoints': {
             'analyze': '/analyze (POST)',
             'health_check': '/health (GET)'
-        }
-    })
-
-@app.route('/health', methods=['GET'])
-def health_check():
-    ffmpeg_available = subprocess.run(['ffmpeg', '-version'], capture_output=True).returncode == 0
-    return jsonify({
-        'status': 'healthy',
-        'timestamp': datetime.now().isoformat(),
-        'services': {
-            'ffmpeg': 'available' if ffmpeg_available else 'unavailable',
-            'storage': {
-                'upload_folder': os.path.isdir(Config.UPLOAD_FOLDER),
-                'converted_folder': os.path.isdir(Config.CONVERTED_FOLDER)
-            }
         }
     })
 
