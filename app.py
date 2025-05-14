@@ -222,6 +222,34 @@ def health_check():
     })
 
 # ----------------------
+# Health & Default Routes
+# ----------------------
+@app.route('/')
+def home():
+    return jsonify({
+        'message': 'VocalCoach API çalışıyor!',
+        'endpoints': {
+            'analyze': '/analyze (POST)',
+            'health_check': '/health (GET)'
+        }
+    })
+
+@app.route('/health', methods=['GET'])
+def health_check():
+    ffmpeg_available = subprocess.run(['ffmpeg', '-version'], capture_output=True).returncode == 0
+    return jsonify({
+        'status': 'healthy',
+        'timestamp': datetime.now().isoformat(),
+        'services': {
+            'ffmpeg': 'available' if ffmpeg_available else 'unavailable',
+            'storage': {
+                'upload_folder': os.path.isdir(Config.UPLOAD_FOLDER),
+                'converted_folder': os.path.isdir(Config.CONVERTED_FOLDER)
+            }
+        }
+    })
+
+# ----------------------
 # Initialization
 # ----------------------
 setup_logging()
