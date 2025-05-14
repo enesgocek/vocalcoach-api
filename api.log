@@ -1,0 +1,582 @@
+2025-05-10 01:52:17,573 - ERROR - Firebase baþlatma hatasý: [Errno 2] No such file or directory: 'C:\\Users\\enesn\\OneDrive\\Masaüstü\\voice_analyzer_api\\serviceAccountKey.json'
+2025-05-10 01:53:36,564 - INFO - Firebase baþarýyla baþlatýldý
+2025-05-10 01:53:36,591 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-10 01:53:36,591 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 01:59:38,116 - INFO - Yeni analiz isteði baþladý
+2025-05-10 01:59:38,292 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.wav
+2025-05-10 01:59:44,322 - WARNING - Kullanýcý bulunamadý: eJLQAkXOFUcMQsZRuXenMcxVUxO2
+2025-05-10 01:59:44,322 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': np.float32(240.11), 'gender': 'unknown', 'processing_time': '0:00:06.207209'}
+2025-05-10 01:59:44,323 - ERROR - Analiz hatasý: Object of type float32 is not JSON serializable
+2025-05-10 01:59:44,326 - INFO - 127.0.0.1 - - [10/May/2025 01:59:44] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-05-10 02:08:22,976 - INFO - Firebase baþarýyla baþlatýldý
+2025-05-10 02:10:32,778 - INFO - Firebase baþarýyla baþlatýldý
+2025-05-10 02:10:32,809 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-10 02:10:32,809 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 02:11:28,509 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.wav
+2025-05-10 02:11:34,053 - WARNING - Kullanýcý bulunamadý: eJLQAkXOFUcMQsZRuXenMcxVUxO2
+2025-05-10 02:11:34,053 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 240.11, 'gender': 'unknown', 'processing_time': '0:00:05.768493'}
+2025-05-10 02:11:34,055 - INFO - 127.0.0.1 - - [10/May/2025 02:11:34] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:11:56,190 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_221122.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_221122.wav
+2025-05-10 02:11:56,391 - WARNING - Kullanýcý bulunamadý: eJLQAkXOFUcMQsZRuXenMcxVUxO2
+2025-05-10 02:11:56,391 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 241.06, 'gender': 'unknown', 'processing_time': '0:00:00.285436'}
+2025-05-10 02:11:56,394 - INFO - 127.0.0.1 - - [10/May/2025 02:11:56] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:11:58,628 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.wav
+2025-05-10 02:11:58,795 - WARNING - Kullanýcý bulunamadý: eJLQAkXOFUcMQsZRuXenMcxVUxO2
+2025-05-10 02:11:58,795 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 240.11, 'gender': 'unknown', 'processing_time': '0:00:00.249045'}
+2025-05-10 02:11:58,798 - INFO - 127.0.0.1 - - [10/May/2025 02:11:58] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:12:04,120 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.wav
+2025-05-10 02:12:04,318 - WARNING - Kullanýcý bulunamadý: eJLQAkXOFUcMQsZRuXenMcxVUxO2
+2025-05-10 02:12:04,318 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 240.11, 'gender': 'unknown', 'processing_time': '0:00:00.282199'}
+2025-05-10 02:12:04,320 - INFO - 127.0.0.1 - - [10/May/2025 02:12:04] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:12:08,657 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_221122.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_221122.wav
+2025-05-10 02:12:08,863 - WARNING - Kullanýcý bulunamadý: eJLQAkXOFUcMQsZRuXenMcxVUxO2
+2025-05-10 02:12:08,863 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 241.06, 'gender': 'unknown', 'processing_time': '0:00:00.288243'}
+2025-05-10 02:12:08,866 - INFO - 127.0.0.1 - - [10/May/2025 02:12:08] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:13:06,376 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.wav
+2025-05-10 02:13:06,573 - WARNING - Kullanýcý bulunamadý: eJLQAkXOFUcMQsZRuXenMcxVUxO2
+2025-05-10 02:13:06,574 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 240.11, 'gender': 'unknown', 'processing_time': '0:00:00.298327'}
+2025-05-10 02:13:06,576 - INFO - 127.0.0.1 - - [10/May/2025 02:13:06] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:17:22,030 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.wav
+2025-05-10 02:17:22,655 - WARNING - Kullanýcý bulunamadý: eJLQAkXOFUcMQsZRuXenMcxVUxO2
+2025-05-10 02:17:22,655 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 240.11, 'gender': 'unknown', 'processing_time': '0:00:00.723457'}
+2025-05-10 02:17:22,715 - INFO - 127.0.0.1 - - [10/May/2025 02:17:22] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:17:25,777 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_221122.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_221122.wav
+2025-05-10 02:17:26,023 - WARNING - Kullanýcý bulunamadý: eJLQAkXOFUcMQsZRuXenMcxVUxO2
+2025-05-10 02:17:26,023 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 241.06, 'gender': 'unknown', 'processing_time': '0:00:00.398853'}
+2025-05-10 02:17:26,026 - INFO - 127.0.0.1 - - [10/May/2025 02:17:26] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:42:12,649 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.wav
+2025-05-10 02:42:13,046 - WARNING - Kullanýcý bulunamadý: eJLQAkXOFUcMQsZRuXenMcxVUxO2
+2025-05-10 02:42:13,046 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 240.11, 'gender': 'unknown', 'processing_time': '0:00:00.554978'}
+2025-05-10 02:42:13,050 - INFO - 127.0.0.1 - - [10/May/2025 02:42:13] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:42:20,255 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_221122.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_221122.wav
+2025-05-10 02:42:20,446 - WARNING - Kullanýcý bulunamadý: eJLQAkXOFUcMQsZRuXenMcxVUxO2
+2025-05-10 02:42:20,446 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 241.06, 'gender': 'unknown', 'processing_time': '0:00:00.347173'}
+2025-05-10 02:42:20,449 - INFO - 127.0.0.1 - - [10/May/2025 02:42:20] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:42:22,200 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.wav
+2025-05-10 02:42:22,373 - WARNING - Kullanýcý bulunamadý: eJLQAkXOFUcMQsZRuXenMcxVUxO2
+2025-05-10 02:42:22,373 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 240.11, 'gender': 'unknown', 'processing_time': '0:00:00.298735'}
+2025-05-10 02:42:22,375 - INFO - 127.0.0.1 - - [10/May/2025 02:42:22] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:42:24,559 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_221122.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_221122.wav
+2025-05-10 02:42:24,774 - WARNING - Kullanýcý bulunamadý: eJLQAkXOFUcMQsZRuXenMcxVUxO2
+2025-05-10 02:42:24,775 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 241.06, 'gender': 'unknown', 'processing_time': '0:00:00.336163'}
+2025-05-10 02:42:24,778 - INFO - 127.0.0.1 - - [10/May/2025 02:42:24] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:42:28,622 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.wav
+2025-05-10 02:42:28,787 - WARNING - Kullanýcý bulunamadý: eJLQAkXOFUcMQsZRuXenMcxVUxO2
+2025-05-10 02:42:28,787 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 240.11, 'gender': 'unknown', 'processing_time': '0:00:00.263453'}
+2025-05-10 02:42:28,790 - INFO - 127.0.0.1 - - [10/May/2025 02:42:28] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:42:30,638 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_221122.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_221122.wav
+2025-05-10 02:42:30,853 - WARNING - Kullanýcý bulunamadý: eJLQAkXOFUcMQsZRuXenMcxVUxO2
+2025-05-10 02:42:30,853 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 241.06, 'gender': 'unknown', 'processing_time': '0:00:00.358513'}
+2025-05-10 02:42:30,856 - INFO - 127.0.0.1 - - [10/May/2025 02:42:30] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:47:20,310 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.wav
+2025-05-10 02:47:20,715 - INFO - Kullanýcý eJLQAkXOFUcMQsZRuXenMcxVUxO2 cinsiyeti: erkek
+2025-05-10 02:47:20,715 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 240.11, 'gender': 'erkek', 'processing_time': '0:00:00.495700'}
+2025-05-10 02:47:20,718 - INFO - 127.0.0.1 - - [10/May/2025 02:47:20] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:47:28,675 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_225921.wav
+2025-05-10 02:47:28,846 - INFO - Kullanýcý eJLQAkXOFUcMQsZRuXenMcxVUxO2 cinsiyeti: erkek
+2025-05-10 02:47:28,847 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 240.11, 'gender': 'erkek', 'processing_time': '0:00:00.305424'}
+2025-05-10 02:47:28,849 - INFO - 127.0.0.1 - - [10/May/2025 02:47:28] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 02:54:32,606 - INFO - Dönüþtürme baþarýlý: uploads\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_221122.aac -> converted\eJLQAkXOFUcMQsZRuXenMcxVUxO2_record_20250509_221122.wav
+2025-05-10 02:54:33,196 - INFO - Kullanýcý eJLQAkXOFUcMQsZRuXenMcxVUxO2 cinsiyeti: erkek
+2025-05-10 02:54:33,196 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 241.06, 'gender': 'erkek', 'processing_time': '0:00:00.971597'}
+2025-05-10 02:54:33,199 - INFO - 127.0.0.1 - - [10/May/2025 02:54:33] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:00:41,248 - INFO - Firebase baþarýyla baþlatýldý
+2025-05-10 03:00:41,282 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-10 03:00:41,283 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 03:01:05,651 - INFO - Dönüþtürme baþarýlý: uploads\f1d0b445e14941bea1eafb468013157f_record_20250509_225921.aac -> converted\f1d0b445e14941bea1eafb468013157f_record_20250509_225921.wav
+2025-05-10 03:01:22,635 - INFO - Kullanýcý eJLQAkXOFUcMQsZRuXenMcxVUxO2 cinsiyeti: erkek
+2025-05-10 03:01:22,635 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 140.84, 'gender': 'erkek', 'processing_time': '0:00:17.433132'}
+2025-05-10 03:01:22,639 - INFO - 127.0.0.1 - - [10/May/2025 03:01:22] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:01:25,884 - INFO - Dönüþtürme baþarýlý: uploads\551f305523be48e598c29e509060c54d_record_20250509_225921.aac -> converted\551f305523be48e598c29e509060c54d_record_20250509_225921.wav
+2025-05-10 03:01:26,120 - INFO - Kullanýcý eJLQAkXOFUcMQsZRuXenMcxVUxO2 cinsiyeti: erkek
+2025-05-10 03:01:26,120 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 140.84, 'gender': 'erkek', 'processing_time': '0:00:00.363349'}
+2025-05-10 03:01:26,123 - INFO - 127.0.0.1 - - [10/May/2025 03:01:26] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:01:31,695 - INFO - Dönüþtürme baþarýlý: uploads\85a82bd1431046529be69e0d8ff2b530_record_20250509_221122.aac -> converted\85a82bd1431046529be69e0d8ff2b530_record_20250509_221122.wav
+2025-05-10 03:01:31,932 - INFO - Kullanýcý eJLQAkXOFUcMQsZRuXenMcxVUxO2 cinsiyeti: erkek
+2025-05-10 03:01:31,933 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 128.07, 'gender': 'erkek', 'processing_time': '0:00:00.323150'}
+2025-05-10 03:01:31,936 - INFO - 127.0.0.1 - - [10/May/2025 03:01:31] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:01:38,245 - INFO - Dönüþtürme baþarýlý: uploads\29b8b0c53a4b44f392b241f7cb37f736_record_20250509_225921.aac -> converted\29b8b0c53a4b44f392b241f7cb37f736_record_20250509_225921.wav
+2025-05-10 03:01:38,468 - INFO - Kullanýcý eJLQAkXOFUcMQsZRuXenMcxVUxO2 cinsiyeti: erkek
+2025-05-10 03:01:38,468 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz', 'average_pitch': 140.84, 'gender': 'erkek', 'processing_time': '0:00:00.318777'}
+2025-05-10 03:01:38,470 - INFO - 127.0.0.1 - - [10/May/2025 03:01:38] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:08:16,777 - INFO - Firebase baþarýyla baþlatýldý
+2025-05-10 03:08:16,795 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-10 03:08:16,796 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 03:08:44,297 - INFO - Dönüþtürme baþarýlý: uploads\2e55c25c62424b5f96bfe9b339e85e14_record_20250509_225921.aac -> converted\2e55c25c62424b5f96bfe9b339e85e14_record_20250509_225921.wav
+2025-05-10 03:08:48,873 - INFO - Firebase'den alýnan ham cinsiyet: erkek
+2025-05-10 03:08:48,873 - INFO - Standartlaþtýrýlmýþ cinsiyet: male
+2025-05-10 03:08:48,874 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Tenor', 'average_pitch': 140.84, 'gender': 'male', 'processing_time': '0:00:04.736672'}
+2025-05-10 03:08:48,876 - INFO - 127.0.0.1 - - [10/May/2025 03:08:48] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:08:54,047 - INFO - Dönüþtürme baþarýlý: uploads\9a115531a0474518899018f61cdb399b_record_20250509_221122.aac -> converted\9a115531a0474518899018f61cdb399b_record_20250509_221122.wav
+2025-05-10 03:08:54,265 - INFO - Firebase'den alýnan ham cinsiyet: erkek
+2025-05-10 03:08:54,265 - INFO - Standartlaþtýrýlmýþ cinsiyet: male
+2025-05-10 03:08:54,265 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Bariton', 'average_pitch': 128.07, 'gender': 'male', 'processing_time': '0:00:00.301469'}
+2025-05-10 03:08:54,268 - INFO - 127.0.0.1 - - [10/May/2025 03:08:54] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:09:10,671 - INFO - Dönüþtürme baþarýlý: uploads\927295300087486088ce71b6b4467f79_record_20250509_225921.aac -> converted\927295300087486088ce71b6b4467f79_record_20250509_225921.wav
+2025-05-10 03:09:10,875 - INFO - Firebase'den alýnan ham cinsiyet: erkek
+2025-05-10 03:09:10,875 - INFO - Standartlaþtýrýlmýþ cinsiyet: male
+2025-05-10 03:09:10,876 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Tenor', 'average_pitch': 140.84, 'gender': 'male', 'processing_time': '0:00:00.292037'}
+2025-05-10 03:09:10,878 - INFO - 127.0.0.1 - - [10/May/2025 03:09:10] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:09:31,206 - INFO - Dönüþtürme baþarýlý: uploads\efa5813d0c1248cfb3e69c603339ef14_record_20250510_000917.aac -> converted\efa5813d0c1248cfb3e69c603339ef14_record_20250510_000917.wav
+2025-05-10 03:09:31,369 - INFO - Firebase'den alýnan ham cinsiyet: erkek
+2025-05-10 03:09:31,369 - INFO - Standartlaþtýrýlmýþ cinsiyet: male
+2025-05-10 03:09:31,370 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Tenor', 'average_pitch': 161.88, 'gender': 'male', 'processing_time': '0:00:00.245594'}
+2025-05-10 03:09:31,372 - INFO - 127.0.0.1 - - [10/May/2025 03:09:31] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:09:35,679 - INFO - Dönüþtürme baþarýlý: uploads\1dbda6e9a7d146c5b6ebd0110345dc94_record_20250510_000917.aac -> converted\1dbda6e9a7d146c5b6ebd0110345dc94_record_20250510_000917.wav
+2025-05-10 03:09:35,844 - INFO - Firebase'den alýnan ham cinsiyet: erkek
+2025-05-10 03:09:35,844 - INFO - Standartlaþtýrýlmýþ cinsiyet: male
+2025-05-10 03:09:35,844 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Tenor', 'average_pitch': 161.88, 'gender': 'male', 'processing_time': '0:00:00.237013'}
+2025-05-10 03:09:35,847 - INFO - 127.0.0.1 - - [10/May/2025 03:09:35] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:10:04,950 - INFO - Dönüþtürme baþarýlý: uploads\4a0d56868066464f805ca543c310ff1f_record_20250510_000935.aac -> converted\4a0d56868066464f805ca543c310ff1f_record_20250510_000935.wav
+2025-05-10 03:10:05,233 - INFO - Firebase'den alýnan ham cinsiyet: erkek
+2025-05-10 03:10:05,233 - INFO - Standartlaþtýrýlmýþ cinsiyet: male
+2025-05-10 03:10:05,234 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Tenor', 'average_pitch': 176.89, 'gender': 'male', 'processing_time': '0:00:00.367498'}
+2025-05-10 03:10:05,236 - INFO - 127.0.0.1 - - [10/May/2025 03:10:05] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:10:25,261 - INFO - Dönüþtürme baþarýlý: uploads\967c0fa26690444a93ca4bd7a37fc758_record_20250510_001015.aac -> converted\967c0fa26690444a93ca4bd7a37fc758_record_20250510_001015.wav
+2025-05-10 03:10:25,429 - INFO - Firebase'den alýnan ham cinsiyet: erkek
+2025-05-10 03:10:25,430 - INFO - Standartlaþtýrýlmýþ cinsiyet: male
+2025-05-10 03:10:25,430 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Tenor', 'average_pitch': 131.22, 'gender': 'male', 'processing_time': '0:00:00.239349'}
+2025-05-10 03:10:25,432 - INFO - 127.0.0.1 - - [10/May/2025 03:10:25] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:10:46,436 - INFO - Dönüþtürme baþarýlý: uploads\73d7c9e0d49447a086769d0ef6cda060_record_20250510_001032.aac -> converted\73d7c9e0d49447a086769d0ef6cda060_record_20250510_001032.wav
+2025-05-10 03:10:46,638 - INFO - Firebase'den alýnan ham cinsiyet: erkek
+2025-05-10 03:10:46,638 - INFO - Standartlaþtýrýlmýþ cinsiyet: male
+2025-05-10 03:10:46,639 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Bas', 'average_pitch': 109.19, 'gender': 'male', 'processing_time': '0:00:00.298072'}
+2025-05-10 03:10:46,641 - INFO - 127.0.0.1 - - [10/May/2025 03:10:46] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:10:51,545 - INFO - Dönüþtürme baþarýlý: uploads\1ce75f841d3645b6bcaa82ac88711269_record_20250510_001032.aac -> converted\1ce75f841d3645b6bcaa82ac88711269_record_20250510_001032.wav
+2025-05-10 03:10:51,746 - INFO - Firebase'den alýnan ham cinsiyet: erkek
+2025-05-10 03:10:51,746 - INFO - Standartlaþtýrýlmýþ cinsiyet: male
+2025-05-10 03:10:51,747 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Bas', 'average_pitch': 109.19, 'gender': 'male', 'processing_time': '0:00:00.291425'}
+2025-05-10 03:10:51,750 - INFO - 127.0.0.1 - - [10/May/2025 03:10:51] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:29:46,508 - INFO - Dönüþtürme baþarýlý: uploads\564d28680e214ed19553d9115026be7d_record_20250510_000917.aac -> converted\564d28680e214ed19553d9115026be7d_record_20250510_000917.wav
+2025-05-10 03:29:47,102 - INFO - Firebase'den alýnan ham cinsiyet: erkek
+2025-05-10 03:29:47,102 - INFO - Standartlaþtýrýlmýþ cinsiyet: male
+2025-05-10 03:29:47,103 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Tenor', 'average_pitch': 161.88, 'gender': 'male', 'processing_time': '0:00:00.719688'}
+2025-05-10 03:29:47,105 - INFO - 127.0.0.1 - - [10/May/2025 03:29:47] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:29:51,352 - INFO - Dönüþtürme baþarýlý: uploads\6c60839c5cdc4c3185a5569219acd4df_record_20250509_225921.aac -> converted\6c60839c5cdc4c3185a5569219acd4df_record_20250509_225921.wav
+2025-05-10 03:29:51,537 - INFO - Firebase'den alýnan ham cinsiyet: erkek
+2025-05-10 03:29:51,537 - INFO - Standartlaþtýrýlmýþ cinsiyet: male
+2025-05-10 03:29:51,537 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Tenor', 'average_pitch': 140.84, 'gender': 'male', 'processing_time': '0:00:00.272872'}
+2025-05-10 03:29:51,539 - INFO - 127.0.0.1 - - [10/May/2025 03:29:51] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:29:53,145 - INFO - Dönüþtürme baþarýlý: uploads\0dc6c1aba75940fd98bd8612b1e5e598_record_20250509_221122.aac -> converted\0dc6c1aba75940fd98bd8612b1e5e598_record_20250509_221122.wav
+2025-05-10 03:29:53,354 - INFO - Firebase'den alýnan ham cinsiyet: erkek
+2025-05-10 03:29:53,354 - INFO - Standartlaþtýrýlmýþ cinsiyet: male
+2025-05-10 03:29:53,355 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Bariton', 'average_pitch': 128.07, 'gender': 'male', 'processing_time': '0:00:00.289685'}
+2025-05-10 03:29:53,357 - INFO - 127.0.0.1 - - [10/May/2025 03:29:53] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 03:29:58,178 - INFO - Dönüþtürme baþarýlý: uploads\a8bc7944c8834ce1be61c0de13e0bef8_record_20250510_001015.aac -> converted\a8bc7944c8834ce1be61c0de13e0bef8_record_20250510_001015.wav
+2025-05-10 03:29:58,467 - INFO - Firebase'den alýnan ham cinsiyet: erkek
+2025-05-10 03:29:58,467 - INFO - Standartlaþtýrýlmýþ cinsiyet: male
+2025-05-10 03:29:58,467 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Tenor', 'average_pitch': 131.22, 'gender': 'male', 'processing_time': '0:00:00.378358'}
+2025-05-10 03:29:58,470 - INFO - 127.0.0.1 - - [10/May/2025 03:29:58] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 06:05:03,176 - INFO - Firebase baþarýyla baþlatýldý
+2025-05-10 06:05:03,422 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-10 06:05:03,434 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 06:06:48,405 - INFO - Dönüþtürme baþarýlý: uploads\7cfa52dfb83643919ddafd513e0352bf_record_20250509_225921.aac -> converted\7cfa52dfb83643919ddafd513e0352bf_record_20250509_225921.wav
+2025-05-10 06:06:54,771 - WARNING - Kullanýcý bulunamadý: 4kvr80c9vmeQmORP6NyJ3U4vqW63
+2025-05-10 06:06:54,771 - INFO - Analiz tamamlandý: {'status': 'success', 'voice_type': 'Belirsiz (Cinsiyet Bilinmiyor)', 'average_pitch': 140.84, 'gender': 'unknown', 'processing_time': '0:00:06.532805', 'message': 'Cinsiyet bilgisi tanýmlanamadý veya geçersiz. Lütfen profil ayarlarýnýzý kontrol edin.'}
+2025-05-10 06:06:54,774 - INFO - 127.0.0.1 - - [10/May/2025 06:06:54] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 06:26:57,156 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-10 06:26:57,157 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-10 07:50:16,324 - INFO - Conversion successful: uploads\1f245429aaed40b48a443a0db8b18478_record_20250509_221122.aac -> converted\1f245429aaed40b48a443a0db8b18478_record_20250509_221122.wav
+2025-05-10 07:50:41,480 - WARNING - User not found: 4kvr80c9vmeQmORP6NyJ3U4vqW63
+2025-05-10 07:50:41,481 - INFO - Analysis completed: AnalysisResult(voice_type=<VoiceType.UNKNOWN: 'Belirsiz (Cinsiyet Bilinmiyor)'>, average_pitch=128.07, gender=<Gender.UNKNOWN: 3>, processing_time='0:00:25.382563', message='Cinsiyet bilgisi tanýmlanamadý veya geçersiz. Lütfen profil ayarlarýnýzý kontrol edin.')
+2025-05-10 07:50:41,487 - INFO - 127.0.0.1 - - [10/May/2025 07:50:41] "POST /analyze HTTP/1.1" 200 -
+2025-05-10 18:41:49,667 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-10 18:41:49,669 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 20:23:11,727 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-11 20:23:11,728 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 20:23:16,986 - INFO - Conversion successful: uploads\2064752dc4be46bcbe271d0c76367201_recording_1746983179638.aac -> converted\2064752dc4be46bcbe271d0c76367201_recording_1746983179638.wav
+2025-05-11 20:23:35,625 - INFO - 127.0.0.1 - - [11/May/2025 20:23:35] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 20:30:53,110 - INFO - Conversion successful: uploads\fd3c5d36098641338b210a2ea3ee8376_recording_1746983386936.aac -> converted\fd3c5d36098641338b210a2ea3ee8376_recording_1746983386936.wav
+2025-05-11 20:30:53,149 - INFO - 127.0.0.1 - - [11/May/2025 20:30:53] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 20:30:56,249 - INFO - Conversion successful: uploads\38135389f06c48d79382b986bf9a88cd_recording_1746983179638.aac -> converted\38135389f06c48d79382b986bf9a88cd_recording_1746983179638.wav
+2025-05-11 20:30:56,286 - INFO - 127.0.0.1 - - [11/May/2025 20:30:56] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 20:31:10,281 - INFO - Conversion successful: uploads\1ebf2e4516f1450f9543e7b5a7c3d1b7_recording_1746983179638.aac -> converted\1ebf2e4516f1450f9543e7b5a7c3d1b7_recording_1746983179638.wav
+2025-05-11 20:31:10,320 - INFO - 127.0.0.1 - - [11/May/2025 20:31:10] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 20:31:12,395 - INFO - Conversion successful: uploads\56dff5deb635487bac483b48776dc54d_recording_1746984660083.aac -> converted\56dff5deb635487bac483b48776dc54d_recording_1746984660083.wav
+2025-05-11 20:31:12,435 - INFO - 127.0.0.1 - - [11/May/2025 20:31:12] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 20:31:14,448 - INFO - Conversion successful: uploads\df3a0bce515f488584e9bae6f43de2b0_recording_1746983386936.aac -> converted\df3a0bce515f488584e9bae6f43de2b0_recording_1746983386936.wav
+2025-05-11 20:31:14,578 - INFO - 127.0.0.1 - - [11/May/2025 20:31:14] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 20:31:16,082 - INFO - Conversion successful: uploads\5d4d4b340c1f4a96a4756a9adc33b95a_recording_1746983179638.aac -> converted\5d4d4b340c1f4a96a4756a9adc33b95a_recording_1746983179638.wav
+2025-05-11 20:31:16,119 - INFO - 127.0.0.1 - - [11/May/2025 20:31:16] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 20:49:51,492 - INFO - Conversion successful: uploads\4795418318bc4a2f8276cc761bbb311b_recording_1746985763549.aac -> converted\4795418318bc4a2f8276cc761bbb311b_recording_1746985763549.wav
+2025-05-11 20:49:51,551 - INFO - 127.0.0.1 - - [11/May/2025 20:49:51] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 20:50:09,854 - INFO - Conversion successful: uploads\b740d0014c23480e8c7b521697c51bc5_recording_1746985797923.aac -> converted\b740d0014c23480e8c7b521697c51bc5_recording_1746985797923.wav
+2025-05-11 20:50:09,923 - INFO - 127.0.0.1 - - [11/May/2025 20:50:09] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 20:59:08,365 - INFO - Conversion successful: uploads\663949a0d5ed4810bc89574ebc54a4c3_recording_1746986333562.aac -> converted\663949a0d5ed4810bc89574ebc54a4c3_recording_1746986333562.wav
+2025-05-11 20:59:08,495 - INFO - 127.0.0.1 - - [11/May/2025 20:59:08] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 20:59:27,553 - INFO - Conversion successful: uploads\235de47316f8420fb5fcd6d087e78b90_recording_1746985797923.aac -> converted\235de47316f8420fb5fcd6d087e78b90_recording_1746985797923.wav
+2025-05-11 20:59:27,615 - INFO - 127.0.0.1 - - [11/May/2025 20:59:27] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 21:08:14,730 - INFO - Conversion successful: uploads\100d2e158eab4ca5b2e48748fd1d713c_recording_1746983179638.aac -> converted\100d2e158eab4ca5b2e48748fd1d713c_recording_1746983179638.wav
+2025-05-11 21:08:14,771 - INFO - 127.0.0.1 - - [11/May/2025 21:08:14] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 21:08:19,618 - INFO - Conversion successful: uploads\aa614e0cc1aa4027b5e99bf29278ebca_recording_1746983386936.aac -> converted\aa614e0cc1aa4027b5e99bf29278ebca_recording_1746983386936.wav
+2025-05-11 21:08:19,660 - INFO - 127.0.0.1 - - [11/May/2025 21:08:19] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 21:08:25,398 - INFO - Conversion successful: uploads\588cce0b905d4c1cb8be73d4e002343d_recording_1746984660083.aac -> converted\588cce0b905d4c1cb8be73d4e002343d_recording_1746984660083.wav
+2025-05-11 21:08:25,447 - INFO - 127.0.0.1 - - [11/May/2025 21:08:25] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 21:08:30,449 - INFO - Conversion successful: uploads\4dfb735a475e44b6bc0bd73e124169cd_recording_1746985797923.aac -> converted\4dfb735a475e44b6bc0bd73e124169cd_recording_1746985797923.wav
+2025-05-11 21:08:30,519 - INFO - 127.0.0.1 - - [11/May/2025 21:08:30] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 21:09:05,080 - INFO - Conversion successful: uploads\b9a41133467147f99a318a64c0e6f6c6_ses1.aac -> converted\b9a41133467147f99a318a64c0e6f6c6_ses1.wav
+2025-05-11 21:09:05,126 - INFO - 127.0.0.1 - - [11/May/2025 21:09:05] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 21:10:04,908 - INFO - Conversion successful: uploads\7f984f5ed9b14eff987a39e10d910b58_ses1.aac -> converted\7f984f5ed9b14eff987a39e10d910b58_ses1.wav
+2025-05-11 21:10:04,965 - INFO - 127.0.0.1 - - [11/May/2025 21:10:04] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 21:14:23,379 - INFO - Conversion successful: uploads\8b6df2ff22ce416798c8314b91f33256_ses1.aac -> converted\8b6df2ff22ce416798c8314b91f33256_ses1.wav
+2025-05-11 21:14:23,429 - INFO - 127.0.0.1 - - [11/May/2025 21:14:23] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 21:14:25,887 - INFO - Conversion successful: uploads\a678aa34723548eb9d015dc253f222c3_recording_1746984660083.aac -> converted\a678aa34723548eb9d015dc253f222c3_recording_1746984660083.wav
+2025-05-11 21:14:25,921 - INFO - 127.0.0.1 - - [11/May/2025 21:14:25] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 21:14:28,149 - INFO - Conversion successful: uploads\6f3abe0656d440fbadc173b1fc645759_recording_1746985797923.aac -> converted\6f3abe0656d440fbadc173b1fc645759_recording_1746985797923.wav
+2025-05-11 21:14:28,214 - INFO - 127.0.0.1 - - [11/May/2025 21:14:28] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 21:14:30,436 - INFO - Conversion successful: uploads\0932a2cdea154622aef52a3102fdcf63_recording_1746986333562.aac -> converted\0932a2cdea154622aef52a3102fdcf63_recording_1746986333562.wav
+2025-05-11 21:14:30,530 - INFO - 127.0.0.1 - - [11/May/2025 21:14:30] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 21:16:51,827 - INFO - Conversion successful: uploads\d6c37c66a0144f058bae9e57a63db91b_recording_1746984660083.aac -> converted\d6c37c66a0144f058bae9e57a63db91b_recording_1746984660083.wav
+2025-05-11 21:16:51,872 - INFO - 127.0.0.1 - - [11/May/2025 21:16:51] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 21:16:54,438 - INFO - Conversion successful: uploads\4c272770658248899f6fb9a3bf707f21_recording_1746985763549.aac -> converted\4c272770658248899f6fb9a3bf707f21_recording_1746985763549.wav
+2025-05-11 21:16:54,503 - INFO - 127.0.0.1 - - [11/May/2025 21:16:54] "POST /analyze HTTP/1.1" 200 -
+2025-05-11 21:16:57,036 - INFO - Conversion successful: uploads\c72f9eec015542cd8df0b9d588e47c57_recording_1746985797923.aac -> converted\c72f9eec015542cd8df0b9d588e47c57_recording_1746985797923.wav
+2025-05-11 21:16:57,115 - INFO - 127.0.0.1 - - [11/May/2025 21:16:57] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 01:13:25,907 - INFO - Conversion successful: uploads\e32a9e4c1991447e9ea7052a81c2084b_recording_1746985763549.aac -> converted\e32a9e4c1991447e9ea7052a81c2084b_recording_1746985763549.wav
+2025-05-12 01:13:26,011 - INFO - 127.0.0.1 - - [12/May/2025 01:13:26] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 01:13:29,705 - INFO - Conversion successful: uploads\80bb4a0811b44727878325a8abf92b7e_recording_1746985797923.aac -> converted\80bb4a0811b44727878325a8abf92b7e_recording_1746985797923.wav
+2025-05-12 01:13:29,796 - INFO - 127.0.0.1 - - [12/May/2025 01:13:29] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 01:13:52,174 - INFO - Conversion successful: uploads\ad8de74e319b4f41a864a9933a10e20a_recording_1746984660083.aac -> converted\ad8de74e319b4f41a864a9933a10e20a_recording_1746984660083.wav
+2025-05-12 01:13:52,427 - INFO - 127.0.0.1 - - [12/May/2025 01:13:52] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 01:13:57,941 - INFO - Conversion successful: uploads\61d792e833304aa7bddd1776c18c99f9_ses1.aac -> converted\61d792e833304aa7bddd1776c18c99f9_ses1.wav
+2025-05-12 01:13:57,983 - INFO - 127.0.0.1 - - [12/May/2025 01:13:57] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 01:14:01,704 - INFO - Conversion successful: uploads\7d30b9731a874430af829c5372c11899_recording_1746985763549.aac -> converted\7d30b9731a874430af829c5372c11899_recording_1746985763549.wav
+2025-05-12 01:14:01,753 - INFO - 127.0.0.1 - - [12/May/2025 01:14:01] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 01:14:14,775 - INFO - Conversion successful: uploads\6c740651c16c4625bc2573571012f3c7_halo.aac -> converted\6c740651c16c4625bc2573571012f3c7_halo.wav
+2025-05-12 01:14:14,812 - INFO - 127.0.0.1 - - [12/May/2025 01:14:14] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 03:24:00,101 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-12 03:24:00,105 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 03:24:09,913 - INFO - Conversion successful: uploads\8c0b441598ac4df39900c7d92331b87f_recording_1746986333562.aac -> converted\8c0b441598ac4df39900c7d92331b87f_recording_1746986333562.wav
+2025-05-12 03:24:45,440 - INFO - 127.0.0.1 - - [12/May/2025 03:24:45] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 03:25:21,221 - INFO - Conversion successful: uploads\2d3f3fd3431b486b83e9b70485d43d4e_recording_1746985763549.aac -> converted\2d3f3fd3431b486b83e9b70485d43d4e_recording_1746985763549.wav
+2025-05-12 03:25:21,284 - INFO - 127.0.0.1 - - [12/May/2025 03:25:21] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 03:30:35,347 - INFO - Conversion successful: uploads\32d1a6747a994d928f54b294ba008ae6_recording_1747009819183.aac -> converted\32d1a6747a994d928f54b294ba008ae6_recording_1747009819183.wav
+2025-05-12 03:30:35,405 - INFO - 127.0.0.1 - - [12/May/2025 03:30:35] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 10:24:30,091 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-12 10:24:30,091 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 10:28:58,814 - ERROR - Validation error: Cinsiyet bilgisi eksik
+2025-05-12 10:28:58,814 - INFO - 127.0.0.1 - - [12/May/2025 10:28:58] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-05-12 10:29:03,112 - ERROR - Validation error: Cinsiyet bilgisi eksik
+2025-05-12 10:29:03,113 - INFO - 127.0.0.1 - - [12/May/2025 10:29:03] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-05-12 11:05:57,468 - INFO - Conversion successful: uploads\d914d75b6a304f619dae18913989b916_recording_1747037146048.aac -> converted\d914d75b6a304f619dae18913989b916_recording_1747037146048.wav
+2025-05-12 11:06:05,507 - INFO - Conversion successful: uploads\f30929a8b9e146cc91453df330af25ad_recording_1747037146048.aac -> converted\f30929a8b9e146cc91453df330af25ad_recording_1747037146048.wav
+2025-05-12 11:06:08,785 - INFO - Conversion successful: uploads\477a3de1074a495886668284b5b9ea4c_recording_1747037146048.aac -> converted\477a3de1074a495886668284b5b9ea4c_recording_1747037146048.wav
+2025-05-12 11:06:09,923 - INFO - 127.0.0.1 - - [12/May/2025 11:06:09] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 11:06:09,923 - INFO - 127.0.0.1 - - [12/May/2025 11:06:09] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 11:06:09,924 - INFO - 127.0.0.1 - - [12/May/2025 11:06:09] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 11:06:23,614 - INFO - Conversion successful: uploads\539e96e182284e6eb8687ddcc544ce84_recording_1747037146048.aac -> converted\539e96e182284e6eb8687ddcc544ce84_recording_1747037146048.wav
+2025-05-12 11:06:23,644 - INFO - 127.0.0.1 - - [12/May/2025 11:06:23] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 14:25:52,825 - ERROR - Validation error: Cinsiyet 'male' veya 'female' olmalýdýr
+2025-05-12 14:25:52,829 - INFO - 127.0.0.1 - - [12/May/2025 14:25:52] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-05-12 14:26:02,160 - ERROR - Validation error: Cinsiyet 'male' veya 'female' olmalýdýr
+2025-05-12 14:26:02,160 - INFO - 127.0.0.1 - - [12/May/2025 14:26:02] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-05-12 14:26:30,498 - ERROR - Validation error: Cinsiyet 'male' veya 'female' olmalýdýr
+2025-05-12 14:26:30,498 - INFO - 127.0.0.1 - - [12/May/2025 14:26:30] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-05-12 14:26:36,372 - ERROR - Validation error: Cinsiyet 'male' veya 'female' olmalýdýr
+2025-05-12 14:26:36,373 - INFO - 127.0.0.1 - - [12/May/2025 14:26:36] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-05-12 14:32:26,249 - ERROR - Validation error: Cinsiyet 'male' veya 'female' olmalýdýr
+2025-05-12 14:32:26,250 - INFO - 127.0.0.1 - - [12/May/2025 14:32:26] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-05-12 14:32:30,674 - ERROR - Validation error: Cinsiyet 'male' veya 'female' olmalýdýr
+2025-05-12 14:32:30,674 - INFO - 127.0.0.1 - - [12/May/2025 14:32:30] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-05-12 14:32:42,227 - ERROR - Validation error: Cinsiyet 'male' veya 'female' olmalýdýr
+2025-05-12 14:32:42,227 - INFO - 127.0.0.1 - - [12/May/2025 14:32:42] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-05-12 14:33:09,547 - INFO - Conversion successful: uploads\ec1d1465f4324b77a0557c2275385594_recording_1747034927033.aac -> converted\ec1d1465f4324b77a0557c2275385594_recording_1747034927033.wav
+2025-05-12 14:33:09,610 - INFO - 127.0.0.1 - - [12/May/2025 14:33:09] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 14:34:03,985 - INFO - Conversion successful: uploads\d8df42817b844c65b73421418e74010a_recording_1747034927033.aac -> converted\d8df42817b844c65b73421418e74010a_recording_1747034927033.wav
+2025-05-12 14:34:04,035 - INFO - 127.0.0.1 - - [12/May/2025 14:34:04] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 14:36:04,734 - INFO - Conversion successful: uploads\fd4b61a9cb794f7bbf294f4748404996_recording_1747049744716.aac -> converted\fd4b61a9cb794f7bbf294f4748404996_recording_1747049744716.wav
+2025-05-12 14:36:04,822 - INFO - 127.0.0.1 - - [12/May/2025 14:36:04] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 14:51:00,399 - INFO - Conversion successful: uploads\293560585ffb4f0faec5d6a11cc1c1b8_recording_1747049744716.aac -> converted\293560585ffb4f0faec5d6a11cc1c1b8_recording_1747049744716.wav
+2025-05-12 14:51:00,459 - INFO - 127.0.0.1 - - [12/May/2025 14:51:00] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 17:06:34,878 - INFO - Conversion successful: uploads\beca61c5bb04435b8f7a845da1490eca_recording_1747058775422.aac -> converted\beca61c5bb04435b8f7a845da1490eca_recording_1747058775422.wav
+2025-05-12 17:06:34,914 - INFO - 127.0.0.1 - - [12/May/2025 17:06:34] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 17:06:42,931 - INFO - Conversion successful: uploads\05357ffff20240a3920a03437142e2ef_recording_1747058737324.aac -> converted\05357ffff20240a3920a03437142e2ef_recording_1747058737324.wav
+2025-05-12 17:06:43,006 - INFO - 127.0.0.1 - - [12/May/2025 17:06:43] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 17:07:29,073 - INFO - Conversion successful: uploads\bdebaaf5a1354e0892bf55f86bdb4b9b_recording_1747058810339.aac -> converted\bdebaaf5a1354e0892bf55f86bdb4b9b_recording_1747058810339.wav
+2025-05-12 17:07:29,125 - INFO - 127.0.0.1 - - [12/May/2025 17:07:29] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 17:07:49,728 - INFO - Conversion successful: uploads\a054c08c12fc48028d5aae9cba881184_recording_1747058849676.aac -> converted\a054c08c12fc48028d5aae9cba881184_recording_1747058849676.wav
+2025-05-12 17:07:49,793 - INFO - 127.0.0.1 - - [12/May/2025 17:07:49] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 17:32:01,058 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-12 17:32:01,058 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 17:33:09,374 - INFO - Conversion successful: uploads\9af1063f1d5a449db79e677f66df917c_recording_1747060364169.aac -> converted\9af1063f1d5a449db79e677f66df917c_recording_1747060364169.wav
+2025-05-12 17:33:13,762 - INFO - 127.0.0.1 - - [12/May/2025 17:33:13] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 20:26:49,335 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-12 20:26:49,336 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-12 21:10:15,243 - INFO - Conversion successful: uploads\ba4925ceb6064061b15c2ab97619b6e7_recording_1747060364169.aac -> converted\ba4925ceb6064061b15c2ab97619b6e7_recording_1747060364169.wav
+2025-05-12 21:10:20,070 - INFO - 127.0.0.1 - - [12/May/2025 21:10:20] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 21:11:26,206 - INFO - Conversion successful: uploads\3201b64c93fc4830933bf82ca89697c7_recording_1747058775422.aac -> converted\3201b64c93fc4830933bf82ca89697c7_recording_1747058775422.wav
+2025-05-12 21:11:26,248 - INFO - 127.0.0.1 - - [12/May/2025 21:11:26] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 21:11:34,449 - INFO - Conversion successful: uploads\d9a7d7630685414691674833486fd796_recording_1747058737324.aac -> converted\d9a7d7630685414691674833486fd796_recording_1747058737324.wav
+2025-05-12 21:11:34,568 - INFO - 127.0.0.1 - - [12/May/2025 21:11:34] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 21:11:37,937 - INFO - Conversion successful: uploads\2377a15c21c7401fbc4d82384aab265d_recording_1747058849676.aac -> converted\2377a15c21c7401fbc4d82384aab265d_recording_1747058849676.wav
+2025-05-12 21:11:38,059 - INFO - 127.0.0.1 - - [12/May/2025 21:11:38] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 21:11:41,718 - INFO - Conversion successful: uploads\7f24bf36512e49e59c118a33e94f394a_recording_1747058737324.aac -> converted\7f24bf36512e49e59c118a33e94f394a_recording_1747058737324.wav
+2025-05-12 21:11:41,844 - INFO - 127.0.0.1 - - [12/May/2025 21:11:41] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 21:11:44,175 - INFO - Conversion successful: uploads\db9b4488a4324916841c23efdf1b004e_recording_1747049744716.aac -> converted\db9b4488a4324916841c23efdf1b004e_recording_1747049744716.wav
+2025-05-12 21:11:44,289 - INFO - 127.0.0.1 - - [12/May/2025 21:11:44] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 21:11:46,399 - INFO - Conversion successful: uploads\b1cf959b35a240c096c87a8b73dfe9bd_recording_1747060364169.aac -> converted\b1cf959b35a240c096c87a8b73dfe9bd_recording_1747060364169.wav
+2025-05-12 21:11:46,504 - INFO - 127.0.0.1 - - [12/May/2025 21:11:46] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 21:11:48,803 - INFO - Conversion successful: uploads\6311db2aad7e4b26b55f9c9e3ca401cb_recording_1747058849676.aac -> converted\6311db2aad7e4b26b55f9c9e3ca401cb_recording_1747058849676.wav
+2025-05-12 21:11:48,905 - INFO - 127.0.0.1 - - [12/May/2025 21:11:48] "POST /analyze HTTP/1.1" 200 -
+2025-05-12 21:11:49,084 - INFO - Conversion successful: uploads\6ecabcaec0064f2da5371bc0923f3cbf_recording_1747058849676.aac -> converted\6ecabcaec0064f2da5371bc0923f3cbf_recording_1747058849676.wav
+2025-05-12 21:11:49,160 - INFO - 127.0.0.1 - - [12/May/2025 21:11:49] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 02:03:33,461 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-13 02:03:33,462 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 02:04:05,787 - INFO - Conversion successful: uploads\3cb3fa7a85ac4abca7d380b47e19fe8c_recording_1747090887573.aac -> converted\3cb3fa7a85ac4abca7d380b47e19fe8c_recording_1747090887573.wav
+2025-05-13 02:04:08,623 - INFO - 127.0.0.1 - - [13/May/2025 02:04:08] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 02:17:40,663 - INFO - Conversion successful: uploads\bd934376241f4f5f9c107c31fc9834d6_recording_1747090887573.aac -> converted\bd934376241f4f5f9c107c31fc9834d6_recording_1747090887573.wav
+2025-05-13 02:17:40,708 - INFO - 127.0.0.1 - - [13/May/2025 02:17:40] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 02:17:45,137 - INFO - Conversion successful: uploads\87dcfa19230e4fada70a6b47ff7654b0_recording_1747090887573.aac -> converted\87dcfa19230e4fada70a6b47ff7654b0_recording_1747090887573.wav
+2025-05-13 02:17:45,190 - INFO - 127.0.0.1 - - [13/May/2025 02:17:45] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 02:17:54,083 - INFO - Conversion successful: uploads\245c9175069b4fc4b59b83380f59cc6c_recording_1747088637515.aac -> converted\245c9175069b4fc4b59b83380f59cc6c_recording_1747088637515.wav
+2025-05-13 02:17:54,160 - INFO - 127.0.0.1 - - [13/May/2025 02:17:54] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 02:18:48,204 - INFO - Conversion successful: uploads\cc847a1c221944c386a05cd356629a71_recording_1747091915436.aac -> converted\cc847a1c221944c386a05cd356629a71_recording_1747091915436.wav
+2025-05-13 02:18:48,242 - INFO - 127.0.0.1 - - [13/May/2025 02:18:48] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 02:18:56,959 - INFO - Conversion successful: uploads\f9873804c2f34b67821623a8e01a3114_recording_1747091915436.aac -> converted\f9873804c2f34b67821623a8e01a3114_recording_1747091915436.wav
+2025-05-13 02:18:57,001 - INFO - 127.0.0.1 - - [13/May/2025 02:18:57] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 02:19:15,377 - INFO - Conversion successful: uploads\2e97ba0d97db4585b1d585520621097d_recording_1747091938801.aac -> converted\2e97ba0d97db4585b1d585520621097d_recording_1747091938801.wav
+2025-05-13 02:19:15,431 - INFO - 127.0.0.1 - - [13/May/2025 02:19:15] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 02:23:54,867 - INFO - Conversion successful: uploads\cae11d2147db4084a517ed137c1573d1_recording_1747092214454.aac -> converted\cae11d2147db4084a517ed137c1573d1_recording_1747092214454.wav
+2025-05-13 02:23:54,978 - INFO - 127.0.0.1 - - [13/May/2025 02:23:54] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 02:25:13,473 - INFO - Conversion successful: uploads\53e514ccac8f4093a67fb20c9ed53f12_recording_1747092214454.aac -> converted\53e514ccac8f4093a67fb20c9ed53f12_recording_1747092214454.wav
+2025-05-13 02:25:13,611 - INFO - 127.0.0.1 - - [13/May/2025 02:25:13] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:24:52,037 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-13 03:24:52,037 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 03:25:43,594 - INFO - Conversion successful: uploads\8adcecedf8074d5d8a0e92c8806e347d_recording_1747092214454.aac -> converted\8adcecedf8074d5d8a0e92c8806e347d_recording_1747092214454.wav
+2025-05-13 03:25:47,689 - INFO - 127.0.0.1 - - [13/May/2025 03:25:47] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:35:58,770 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-13 03:35:58,771 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 03:42:07,742 - INFO - Conversion successful: uploads\73c015e21b0e43069aa52dbb325ee31f_recording_1747092214454.aac -> converted\73c015e21b0e43069aa52dbb325ee31f_recording_1747092214454.wav
+2025-05-13 03:42:11,683 - INFO - 127.0.0.1 - - [13/May/2025 03:42:11] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:42:18,307 - INFO - Conversion successful: uploads\b38ea819dcb941abb0941b984d433fce_recording_1747092201344.aac -> converted\b38ea819dcb941abb0941b984d433fce_recording_1747092201344.wav
+2025-05-13 03:42:18,420 - INFO - 127.0.0.1 - - [13/May/2025 03:42:18] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:42:22,498 - INFO - Conversion successful: uploads\3de7d74cb0604b8db4c5051222aa2092_recording_1747092214454.aac -> converted\3de7d74cb0604b8db4c5051222aa2092_recording_1747092214454.wav
+2025-05-13 03:42:22,652 - INFO - 127.0.0.1 - - [13/May/2025 03:42:22] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:42:26,662 - INFO - Conversion successful: uploads\214743c3092d4b7eb115e949b5e0cadd_recording_1747092201344.aac -> converted\214743c3092d4b7eb115e949b5e0cadd_recording_1747092201344.wav
+2025-05-13 03:42:26,814 - INFO - 127.0.0.1 - - [13/May/2025 03:42:26] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:42:30,798 - INFO - Conversion successful: uploads\08d458ad390042a28b5009e9f99ec2a2_recording_1747091938801.aac -> converted\08d458ad390042a28b5009e9f99ec2a2_recording_1747091938801.wav
+2025-05-13 03:42:30,856 - INFO - 127.0.0.1 - - [13/May/2025 03:42:30] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:42:37,219 - INFO - Conversion successful: uploads\7299bdac0bb64b5f92219efa37392c68_recording_1747092201344.aac -> converted\7299bdac0bb64b5f92219efa37392c68_recording_1747092201344.wav
+2025-05-13 03:42:37,396 - INFO - 127.0.0.1 - - [13/May/2025 03:42:37] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:42:45,792 - INFO - Conversion successful: uploads\bcbee747cb4e47438b98d0dd7cda2382_recording_1747092214454.aac -> converted\bcbee747cb4e47438b98d0dd7cda2382_recording_1747092214454.wav
+2025-05-13 03:42:45,957 - INFO - 127.0.0.1 - - [13/May/2025 03:42:45] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:43:13,105 - INFO - Conversion successful: uploads\48d847ad1c854b00a9ab4844b2c97612_recording_1747092214454.aac -> converted\48d847ad1c854b00a9ab4844b2c97612_recording_1747092214454.wav
+2025-05-13 03:43:13,264 - INFO - 127.0.0.1 - - [13/May/2025 03:43:13] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:47:01,747 - INFO - Conversion successful: uploads\325a0996d31d4cc493a8a6d7ecb40612_recording_1747092214454.aac -> converted\325a0996d31d4cc493a8a6d7ecb40612_recording_1747092214454.wav
+2025-05-13 03:47:01,881 - INFO - 127.0.0.1 - - [13/May/2025 03:47:01] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:48:06,888 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-13 03:48:06,888 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 03:48:11,871 - INFO - Conversion successful: uploads\b805043ee53d4e02afdd4547384a32bb_recording_1747092214454.aac -> converted\b805043ee53d4e02afdd4547384a32bb_recording_1747092214454.wav
+2025-05-13 03:48:14,821 - INFO - 127.0.0.1 - - [13/May/2025 03:48:14] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:48:23,869 - INFO - Conversion successful: uploads\7380f14fed3444398ca3300449cd7e88_recording_1747092201344.aac -> converted\7380f14fed3444398ca3300449cd7e88_recording_1747092201344.wav
+2025-05-13 03:48:23,925 - INFO - 127.0.0.1 - - [13/May/2025 03:48:23] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:48:28,853 - INFO - Conversion successful: uploads\98f84ad1795e4724ba26673f043ce131_recording_1747092214454.aac -> converted\98f84ad1795e4724ba26673f043ce131_recording_1747092214454.wav
+2025-05-13 03:48:28,922 - INFO - 127.0.0.1 - - [13/May/2025 03:48:28] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:48:36,476 - INFO - Conversion successful: uploads\383ec5a325b44cb1b9fee4f1d62a70b6_recording_1747092214454.aac -> converted\383ec5a325b44cb1b9fee4f1d62a70b6_recording_1747092214454.wav
+2025-05-13 03:48:36,565 - INFO - 127.0.0.1 - - [13/May/2025 03:48:36] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:49:12,582 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-13 03:49:12,582 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 03:49:23,213 - INFO - Conversion successful: uploads\f45c95be046445c8bb5a26654b7a51ec_recording_1747092214454.aac -> converted\f45c95be046445c8bb5a26654b7a51ec_recording_1747092214454.wav
+2025-05-13 03:49:25,777 - INFO - 127.0.0.1 - - [13/May/2025 03:49:25] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:52:43,218 - INFO - Conversion successful: uploads\463eb0b172b547d6b90e3a1a98ae6c5a_recording_1747092201344.aac -> converted\463eb0b172b547d6b90e3a1a98ae6c5a_recording_1747092201344.wav
+2025-05-13 03:52:43,366 - INFO - 127.0.0.1 - - [13/May/2025 03:52:43] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:52:59,885 - INFO - Conversion successful: uploads\24dd86d6dfd941e08085a70f2ec76cbe_recording_1747092201344.aac -> converted\24dd86d6dfd941e08085a70f2ec76cbe_recording_1747092201344.wav
+2025-05-13 03:53:00,067 - INFO - 127.0.0.1 - - [13/May/2025 03:53:00] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:53:18,748 - INFO - Conversion successful: uploads\22eb0756101b4986970f4a702fcbae63_recording_1747092214454.aac -> converted\22eb0756101b4986970f4a702fcbae63_recording_1747092214454.wav
+2025-05-13 03:53:18,877 - INFO - 127.0.0.1 - - [13/May/2025 03:53:18] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:53:22,533 - INFO - Conversion successful: uploads\6a6da09e0870410896d54c62fa17c575_recording_1747091938801.aac -> converted\6a6da09e0870410896d54c62fa17c575_recording_1747091938801.wav
+2025-05-13 03:53:22,587 - INFO - 127.0.0.1 - - [13/May/2025 03:53:22] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:53:31,313 - INFO - Conversion successful: uploads\bcb6f4495ac24c1384b66c00010ad3cb_recording_1747092214454.aac -> converted\bcb6f4495ac24c1384b66c00010ad3cb_recording_1747092214454.wav
+2025-05-13 03:53:31,434 - INFO - 127.0.0.1 - - [13/May/2025 03:53:31] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 03:54:00,787 - INFO - Conversion successful: uploads\24604488462e48fd8987838203272b51_recording_1747091915436.aac -> converted\24604488462e48fd8987838203272b51_recording_1747091915436.wav
+2025-05-13 03:54:00,833 - INFO - 127.0.0.1 - - [13/May/2025 03:54:00] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 04:08:25,194 - INFO - Conversion successful: uploads\41f08253590d41cc8820ab32954b8192_recording_1747092214454.aac -> converted\41f08253590d41cc8820ab32954b8192_recording_1747092214454.wav
+2025-05-13 04:08:25,305 - INFO - 127.0.0.1 - - [13/May/2025 04:08:25] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 04:20:44,164 - INFO - Conversion successful: uploads\f633fc3fd0ec49349153969eb0b68310_recording_1747091938801.aac -> converted\f633fc3fd0ec49349153969eb0b68310_recording_1747091938801.wav
+2025-05-13 04:20:44,219 - INFO - 127.0.0.1 - - [13/May/2025 04:20:44] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 04:22:27,882 - INFO - Conversion successful: uploads\abe68c52f18b495d8640388b8f7ac682_recording_1747092214454.aac -> converted\abe68c52f18b495d8640388b8f7ac682_recording_1747092214454.wav
+2025-05-13 04:22:28,003 - INFO - 127.0.0.1 - - [13/May/2025 04:22:28] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 04:23:39,973 - INFO - Conversion successful: uploads\1323480dd82f4d92bf3534319a28e121_recording_1747092214454.aac -> converted\1323480dd82f4d92bf3534319a28e121_recording_1747092214454.wav
+2025-05-13 04:23:40,092 - INFO - 127.0.0.1 - - [13/May/2025 04:23:40] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 04:23:50,758 - INFO - Conversion successful: uploads\d7cf7d9965704b8e86d0f7848604889f_recording_1747091938801.aac -> converted\d7cf7d9965704b8e86d0f7848604889f_recording_1747091938801.wav
+2025-05-13 04:23:50,805 - INFO - 127.0.0.1 - - [13/May/2025 04:23:50] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 04:43:46,752 - INFO - Conversion successful: uploads\31862bfa34d94655933acb179880261c_recording_1747100487379.aac -> converted\31862bfa34d94655933acb179880261c_recording_1747100487379.wav
+2025-05-13 04:43:46,786 - INFO - 127.0.0.1 - - [13/May/2025 04:43:46] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 04:44:04,794 - INFO - Conversion successful: uploads\6700ca3910944436810c17d1d13e09e0_recording_1747100487379.aac -> converted\6700ca3910944436810c17d1d13e09e0_recording_1747100487379.wav
+2025-05-13 04:44:04,825 - INFO - 127.0.0.1 - - [13/May/2025 04:44:04] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 04:44:19,293 - INFO - Conversion successful: uploads\0135f009db02458b976e631833bad1c9_recording_1747100648760.aac -> converted\0135f009db02458b976e631833bad1c9_recording_1747100648760.wav
+2025-05-13 04:44:19,341 - INFO - 127.0.0.1 - - [13/May/2025 04:44:19] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 04:53:25,730 - INFO - Conversion successful: uploads\f2b724a1e10b4a1f87eed61bc855187d_recording_1747100913642.aac -> converted\f2b724a1e10b4a1f87eed61bc855187d_recording_1747100913642.wav
+2025-05-13 04:53:25,758 - INFO - 127.0.0.1 - - [13/May/2025 04:53:25] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 04:53:34,204 - INFO - Conversion successful: uploads\6181bdeb64b24b3886dd0dfecb35e80f_recording_1747100829686.aac -> converted\6181bdeb64b24b3886dd0dfecb35e80f_recording_1747100829686.wav
+2025-05-13 04:53:34,238 - INFO - 127.0.0.1 - - [13/May/2025 04:53:34] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 05:13:51,608 - INFO - Conversion successful: uploads\a33e229810a947729eb0dbd0defd22af_recording_1747034927033.aac -> converted\a33e229810a947729eb0dbd0defd22af_recording_1747034927033.wav
+2025-05-13 05:13:51,692 - INFO - 127.0.0.1 - - [13/May/2025 05:13:51] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 05:15:19,291 - INFO - Conversion successful: uploads\a2eb52a3cdb34bdc8e204c26deed7ead_recording_1747102500719.aac -> converted\a2eb52a3cdb34bdc8e204c26deed7ead_recording_1747102500719.wav
+2025-05-13 05:15:19,418 - INFO - 127.0.0.1 - - [13/May/2025 05:15:19] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 05:15:52,573 - INFO - Conversion successful: uploads\e4c70cbcd9174cd48840b66d6e2204f6_recording_1747102500719.aac -> converted\e4c70cbcd9174cd48840b66d6e2204f6_recording_1747102500719.wav
+2025-05-13 05:15:52,720 - INFO - 127.0.0.1 - - [13/May/2025 05:15:52] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 05:15:55,538 - INFO - Conversion successful: uploads\325eadb418c24d988d674264c7a2ef2a_recording_1747102500719.aac -> converted\325eadb418c24d988d674264c7a2ef2a_recording_1747102500719.wav
+2025-05-13 05:15:55,699 - INFO - Conversion successful: uploads\f6466cbe427944f994299669807e5b75_recording_1747102500719.aac -> converted\f6466cbe427944f994299669807e5b75_recording_1747102500719.wav
+2025-05-13 05:15:55,798 - INFO - 127.0.0.1 - - [13/May/2025 05:15:55] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 05:15:55,912 - INFO - 127.0.0.1 - - [13/May/2025 05:15:55] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 05:16:15,348 - INFO - Conversion successful: uploads\c06fc942463f4055be69bf70c0a18991_recording_1747102557837.aac -> converted\c06fc942463f4055be69bf70c0a18991_recording_1747102557837.wav
+2025-05-13 05:16:15,537 - INFO - 127.0.0.1 - - [13/May/2025 05:16:15] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 05:16:19,877 - INFO - Conversion successful: uploads\7de2d13b5b1f4e0ea7a0a060ae458fe9_recording_1747102500719.aac -> converted\7de2d13b5b1f4e0ea7a0a060ae458fe9_recording_1747102500719.wav
+2025-05-13 05:16:20,006 - INFO - 127.0.0.1 - - [13/May/2025 05:16:20] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 05:17:26,130 - INFO - Conversion successful: uploads\9ec68d2b488b45ec950f59f6609565f8_recording_1747102629200.aac -> converted\9ec68d2b488b45ec950f59f6609565f8_recording_1747102629200.wav
+2025-05-13 05:17:26,267 - INFO - 127.0.0.1 - - [13/May/2025 05:17:26] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 05:18:16,701 - INFO - Conversion successful: uploads\455020926ab34ab98046e99d9f45e10a_recording_1747102678467.aac -> converted\455020926ab34ab98046e99d9f45e10a_recording_1747102678467.wav
+2025-05-13 05:18:16,856 - INFO - 127.0.0.1 - - [13/May/2025 05:18:16] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 16:56:59,969 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-13 16:56:59,970 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 17:00:53,140 - INFO - Conversion successful: uploads\a82771f1bbff4b10b1fbd87b05922dcd_recording_1747102678467.aac -> converted\a82771f1bbff4b10b1fbd87b05922dcd_recording_1747102678467.wav
+2025-05-13 17:00:59,997 - INFO - 127.0.0.1 - - [13/May/2025 17:00:59] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 17:01:25,572 - INFO - Conversion successful: uploads\efb5adfc3ce94901877851a0042fee98_recording_1747102629200.aac -> converted\efb5adfc3ce94901877851a0042fee98_recording_1747102629200.wav
+2025-05-13 17:01:25,766 - INFO - 127.0.0.1 - - [13/May/2025 17:01:25] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 17:01:45,701 - INFO - Conversion successful: uploads\00495df8ded641ce8347c5d7178d62d9_recording_1747102557837.aac -> converted\00495df8ded641ce8347c5d7178d62d9_recording_1747102557837.wav
+2025-05-13 17:01:45,853 - INFO - 127.0.0.1 - - [13/May/2025 17:01:45] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 17:01:52,710 - INFO - Conversion successful: uploads\542c482134be4109be0e334045a4a3cb_recording_1747102500719.aac -> converted\542c482134be4109be0e334045a4a3cb_recording_1747102500719.wav
+2025-05-13 17:01:52,858 - INFO - 127.0.0.1 - - [13/May/2025 17:01:52] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 17:38:14,718 - INFO - Conversion successful: uploads\cb614e70cd1e4ef3885abd1bd4411d02_recording_1747102629200.aac -> converted\cb614e70cd1e4ef3885abd1bd4411d02_recording_1747102629200.wav
+2025-05-13 17:38:14,898 - INFO - 127.0.0.1 - - [13/May/2025 17:38:14] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 17:38:50,315 - INFO - Conversion successful: uploads\747134eedfc5440b9d435facecb9074b_recording_1747084586115.aac -> converted\747134eedfc5440b9d435facecb9074b_recording_1747084586115.wav
+2025-05-13 17:38:50,377 - INFO - 127.0.0.1 - - [13/May/2025 17:38:50] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 17:38:59,168 - INFO - Conversion successful: uploads\e0185235ac0d4f45a31137b410a606cd_recording_1747058849676.aac -> converted\e0185235ac0d4f45a31137b410a606cd_recording_1747058849676.wav
+2025-05-13 17:38:59,255 - INFO - 127.0.0.1 - - [13/May/2025 17:38:59] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 17:39:12,068 - INFO - Conversion successful: uploads\a09b79455bc24d78aacd2912bbff7fa2_recording_1747058810339.aac -> converted\a09b79455bc24d78aacd2912bbff7fa2_recording_1747058810339.wav
+2025-05-13 17:39:12,137 - INFO - 127.0.0.1 - - [13/May/2025 17:39:12] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 17:39:18,761 - INFO - Conversion successful: uploads\e54f86c4a73342508e2654a6b229cd9e_recording_1747058775422.aac -> converted\e54f86c4a73342508e2654a6b229cd9e_recording_1747058775422.wav
+2025-05-13 17:39:18,804 - INFO - 127.0.0.1 - - [13/May/2025 17:39:18] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 17:39:24,584 - INFO - Conversion successful: uploads\e57b8203cf5847358a58d20b0ec4eaf3_recording_1747058737324.aac -> converted\e57b8203cf5847358a58d20b0ec4eaf3_recording_1747058737324.wav
+2025-05-13 17:39:24,692 - INFO - 127.0.0.1 - - [13/May/2025 17:39:24] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 17:39:27,684 - INFO - Conversion successful: uploads\c94a8ef08ca44059aa985a5b8635f895_recording_1747049744716.aac -> converted\c94a8ef08ca44059aa985a5b8635f895_recording_1747049744716.wav
+2025-05-13 17:39:27,775 - INFO - 127.0.0.1 - - [13/May/2025 17:39:27] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 17:39:31,502 - INFO - Conversion successful: uploads\0afeba752c034f3e8515679b8a068bfc_recording_1747084586115.aac -> converted\0afeba752c034f3e8515679b8a068bfc_recording_1747084586115.wav
+2025-05-13 17:39:31,561 - INFO - 127.0.0.1 - - [13/May/2025 17:39:31] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 18:28:55,077 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-13 18:28:55,079 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 18:28:57,548 - ERROR - Validation error: Cinsiyet 'male' veya 'female' olmalýdýr
+2025-05-13 18:28:57,549 - INFO - 127.0.0.1 - - [13/May/2025 18:28:57] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-05-13 18:29:04,697 - ERROR - Validation error: Cinsiyet 'male' veya 'female' olmalýdýr
+2025-05-13 18:29:04,698 - INFO - 127.0.0.1 - - [13/May/2025 18:29:04] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2025-05-13 19:59:24,390 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-13 19:59:24,391 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 20:01:51,089 - INFO - Conversion successful: uploads\d1534f194110466281508c2b4c5ad790_recording_1747102678467.aac -> converted\d1534f194110466281508c2b4c5ad790_recording_1747102678467.wav
+2025-05-13 20:02:00,248 - INFO - 127.0.0.1 - - [13/May/2025 20:02:00] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 20:02:10,665 - INFO - Conversion successful: uploads\2afa1a8b62a44e6d85a4778ab2e308dd_recording_1747102629200.aac -> converted\2afa1a8b62a44e6d85a4778ab2e308dd_recording_1747102629200.wav
+2025-05-13 20:02:10,774 - INFO - 127.0.0.1 - - [13/May/2025 20:02:10] "POST /analyze HTTP/1.1" 200 -
+2025-05-13 20:02:15,370 - INFO - Conversion successful: uploads\a36607b2c9484ca787949c772d8ac7a4_recording_1747102500719.aac -> converted\a36607b2c9484ca787949c772d8ac7a4_recording_1747102500719.wav
+2025-05-13 20:02:15,504 - INFO - 127.0.0.1 - - [13/May/2025 20:02:15] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 15:52:40,094 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-14 15:52:40,095 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-14 15:56:18,875 - INFO - Conversion successful: uploads\2eff1f51dba8490ebdbbe22d9599349f_recording_1747174788470.aac -> converted\2eff1f51dba8490ebdbbe22d9599349f_recording_1747174788470.wav
+2025-05-14 15:56:46,559 - INFO - 127.0.0.1 - - [14/May/2025 15:56:46] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 15:57:14,102 - INFO - Conversion successful: uploads\bb375f616af5457587ce6ef673236e62_recording_1747102629200.aac -> converted\bb375f616af5457587ce6ef673236e62_recording_1747102629200.wav
+2025-05-14 15:57:14,251 - INFO - 127.0.0.1 - - [14/May/2025 15:57:14] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 15:58:10,745 - INFO - Conversion successful: uploads\ec8a95a1a761452eabdf4f8be7b0947e_recording_1747058849676.aac -> converted\ec8a95a1a761452eabdf4f8be7b0947e_recording_1747058849676.wav
+2025-05-14 15:58:10,855 - INFO - 127.0.0.1 - - [14/May/2025 15:58:10] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:02:02,520 - INFO - Conversion successful: uploads\67dc5dfcf8eb4a11be89be08144b8c43_recording_1747058849676.aac -> converted\67dc5dfcf8eb4a11be89be08144b8c43_recording_1747058849676.wav
+2025-05-14 16:02:02,618 - INFO - 127.0.0.1 - - [14/May/2025 16:02:02] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:02:08,183 - INFO - Conversion successful: uploads\0f871dfcd58c479ea01a5832c7f1362d_recording_1747058810339.aac -> converted\0f871dfcd58c479ea01a5832c7f1362d_recording_1747058810339.wav
+2025-05-14 16:02:08,249 - INFO - 127.0.0.1 - - [14/May/2025 16:02:08] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:02:21,547 - INFO - Conversion successful: uploads\376c19e824f44114b09b3850b030579a_recording_1747084586115.aac -> converted\376c19e824f44114b09b3850b030579a_recording_1747084586115.wav
+2025-05-14 16:02:21,597 - INFO - 127.0.0.1 - - [14/May/2025 16:02:21] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:02:27,244 - INFO - Conversion successful: uploads\a5e8658b90354a6ab7e45971e8fa386b_recording_1747060364169.aac -> converted\a5e8658b90354a6ab7e45971e8fa386b_recording_1747060364169.wav
+2025-05-14 16:02:27,350 - INFO - 127.0.0.1 - - [14/May/2025 16:02:27] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:12:53,295 - INFO - Conversion successful: uploads\a58df8934e8b43c4b55888bbab1ac467_recording_1747227732170.aac -> converted\a58df8934e8b43c4b55888bbab1ac467_recording_1747227732170.wav
+2025-05-14 16:12:53,312 - INFO - 127.0.0.1 - - [14/May/2025 16:12:53] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:13:04,561 - INFO - Conversion successful: uploads\d9665c4ef5ae4fefb60da328775f14bf_recording_1747227458594.aac -> converted\d9665c4ef5ae4fefb60da328775f14bf_recording_1747227458594.wav
+2025-05-14 16:13:04,633 - INFO - 127.0.0.1 - - [14/May/2025 16:13:04] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:13:15,614 - INFO - Conversion successful: uploads\991459866fc54a97a388a9f2bf734e99_recording_1747227458594.aac -> converted\991459866fc54a97a388a9f2bf734e99_recording_1747227458594.wav
+2025-05-14 16:13:15,687 - INFO - 127.0.0.1 - - [14/May/2025 16:13:15] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:13:30,244 - INFO - Conversion successful: uploads\8d2f8c40638d46afb8055570e6ec31ce_recording_1747228398064.aac -> converted\8d2f8c40638d46afb8055570e6ec31ce_recording_1747228398064.wav
+2025-05-14 16:13:30,305 - INFO - 127.0.0.1 - - [14/May/2025 16:13:30] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:13:36,687 - INFO - Conversion successful: uploads\1d6f736b96214166bf9121c38d8fceba_recording_1747084586115.aac -> converted\1d6f736b96214166bf9121c38d8fceba_recording_1747084586115.wav
+2025-05-14 16:13:36,757 - INFO - 127.0.0.1 - - [14/May/2025 16:13:36] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:13:42,189 - INFO - Conversion successful: uploads\b0ce65724c4d41c5a52b9015b73605ef_recording_1747058810339.aac -> converted\b0ce65724c4d41c5a52b9015b73605ef_recording_1747058810339.wav
+2025-05-14 16:13:42,258 - INFO - 127.0.0.1 - - [14/May/2025 16:13:42] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:17:27,569 - INFO - Conversion successful: uploads\6cc27f23da5c47d497c89dc135c1ad1d_recording_1747227458594.aac -> converted\6cc27f23da5c47d497c89dc135c1ad1d_recording_1747227458594.wav
+2025-05-14 16:17:27,631 - INFO - 127.0.0.1 - - [14/May/2025 16:17:27] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:17:37,229 - INFO - Conversion successful: uploads\059cbd1266c94833b5854d405e88ee70_recording_1747227732170.aac -> converted\059cbd1266c94833b5854d405e88ee70_recording_1747227732170.wav
+2025-05-14 16:17:37,246 - INFO - 127.0.0.1 - - [14/May/2025 16:17:37] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:17:44,176 - INFO - Conversion successful: uploads\9f0fcfbc179b4f4e911cd5c9ed209ce7_recording_1747228398064.aac -> converted\9f0fcfbc179b4f4e911cd5c9ed209ce7_recording_1747228398064.wav
+2025-05-14 16:17:44,242 - INFO - 127.0.0.1 - - [14/May/2025 16:17:44] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:22:14,820 - INFO - Conversion successful: uploads\a4999466217b43fb997c686fee71de27_recording_1747227732170.aac -> converted\a4999466217b43fb997c686fee71de27_recording_1747227732170.wav
+2025-05-14 16:22:14,837 - INFO - 127.0.0.1 - - [14/May/2025 16:22:14] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:22:22,067 - INFO - Conversion successful: uploads\31edef8f82fd4507a7728827f9e02378_recording_1747060364169.aac -> converted\31edef8f82fd4507a7728827f9e02378_recording_1747060364169.wav
+2025-05-14 16:22:22,175 - INFO - 127.0.0.1 - - [14/May/2025 16:22:22] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 16:55:51,515 - INFO - Conversion successful: uploads\a8bc2340108d4c65828a1b066c89b6b8_recording_1747228398064.aac -> converted\a8bc2340108d4c65828a1b066c89b6b8_recording_1747228398064.wav
+2025-05-14 16:55:51,580 - INFO - 127.0.0.1 - - [14/May/2025 16:55:51] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 19:42:47,369 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.132:5000
+2025-05-14 19:42:47,370 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-14 19:44:35,342 - INFO - Conversion successful: uploads\1ab38860acc045ee867dc1c47b6442cb_recording_1747227732170.aac -> converted\1ab38860acc045ee867dc1c47b6442cb_recording_1747227732170.wav
+2025-05-14 19:44:40,281 - INFO - 127.0.0.1 - - [14/May/2025 19:44:40] "POST /analyze HTTP/1.1" 200 -
+2025-05-14 19:44:48,416 - INFO - Conversion successful: uploads\26ca279fd3ef4a37a68cacf89989cf9d_recording_1747228398064.aac -> converted\26ca279fd3ef4a37a68cacf89989cf9d_recording_1747228398064.wav
+2025-05-14 19:44:48,516 - INFO - 127.0.0.1 - - [14/May/2025 19:44:48] "POST /analyze HTTP/1.1" 200 -
