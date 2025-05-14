@@ -1,6 +1,7 @@
 import os
 import logging
 import uuid
+import traceback
 from datetime import datetime
 from typing import Optional, Tuple
 
@@ -67,6 +68,7 @@ def setup_logging():
 def create_folders():
     os.makedirs(Config.UPLOAD_FOLDER, exist_ok=True)
     os.makedirs(Config.CONVERTED_FOLDER, exist_ok=True)
+    logging.info("Upload ve converted klasörleri kontrol edildi.")
 
 def allowed_file(filename: str) -> bool:
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in Config.ALLOWED_EXTENSIONS
@@ -83,8 +85,9 @@ def clean_up_files(*file_paths):
         try:
             if path and os.path.exists(path):
                 os.remove(path)
+                logging.info(f"Silindi: {path}")
         except Exception as e:
-            logging.warning(f"Failed to delete file {path}: {str(e)}")
+            logging.warning(f"Dosya silme hatası ({path}): {str(e)}")
 
 # ----------------------
 # Audio Processing
@@ -98,22 +101,22 @@ def convert_to_wav(input_path: str, output_path: str) -> None:
             stderr=subprocess.PIPE,
             text=True
         )
-        logging.info(f"Conversion successful: {input_path} -> {output_path}")
+        logging.info(f"✅ Dönüştürüldü: {input_path} → {output_path}")
     except subprocess.CalledProcessError as e:
-        error_msg = f"FFmpeg error: {e.stderr}"
+        error_msg = f"FFmpeg hatası: {e.stderr}"
         logging.error(error_msg)
         raise Exception(error_msg)
 
 def analyze_pitch(y: np.ndarray, sr: int) -> Tuple[float, list]:
     if len(y) / sr < 0.5:
-        raise ValueError("Audio file too short (minimum 0.5 seconds required)")
+        raise ValueError("Ses dosyası çok kısa (en az 0.5 saniye)")
 
     pitch = librosa.yin(y, fmin=50, fmax=1000, sr=sr)
     pitch = pitch[np.isfinite(pitch)]
     pitch = pitch[pitch > 0]
 
     if pitch.size == 0:
-        raise ValueError("No pitch detected")
+        raise ValueError("Pitch bulunamadı")
 
     return float(np.median(pitch)), pitch.tolist()
 
@@ -153,21 +156,22 @@ def analyze():
     input_path, output_path = None, None
 
     try:
+        print("🎙️ /analyze isteği alındı.")
         if 'file' not in request.files:
-            raise ValueError("No file uploaded")
+            raise ValueError("Dosya yüklenmedi (file alanı eksik)")
         if 'gender' not in request.form:
             raise ValueError("Cinsiyet bilgisi eksik")
+        
         gender = request.form['gender']
-        if gender.lower() not in ['male', 'female']:
-            raise ValueError("Cinsiyet 'male' veya 'female' olmalıdır")
-
         file = request.files['file']
+
         if file.filename == '':
-            raise ValueError("No file selected")
+            raise ValueError("Dosya seçilmedi")
         if not allowed_file(file.filename):
-            raise ValueError("Unsupported file format")
+            raise ValueError("Desteklenmeyen dosya formatı")
 
         input_path, output_path = generate_unique_filename(file.filename)
+        logging.info(f"Yüklenen dosya: {input_path}")
         file.save(input_path)
         convert_to_wav(input_path, output_path)
 
@@ -181,6 +185,8 @@ def analyze():
             processing_time=str(datetime.now() - start_time)
         )
 
+        logging.info(f"Analiz sonucu: {result}")
+
         return jsonify({
             'status': 'success',
             'voice_type': result.voice_type.value,
@@ -190,14 +196,15 @@ def analyze():
         })
 
     except ValueError as e:
-        logging.error(f"Validation error: {str(e)}")
+        logging.error(f"❌ Validation hatası: {str(e)}")
         return jsonify({'status': 'error', 'message': str(e)}), 400
     except RequestEntityTooLarge:
-        error_msg = "File size exceeds 10MB limit"
+        error_msg = "Dosya boyutu 10MB sınırını aşıyor"
         logging.error(error_msg)
         return jsonify({'status': 'error', 'message': error_msg}), 413
     except Exception as e:
-        logging.error(f"Analysis error: {str(e)}")
+        logging.error(f"❌ İstisna oluştu: {str(e)}")
+        traceback.print_exc()
         return jsonify({'status': 'error', 'message': str(e)}), 500
     finally:
         clean_up_files(input_path, output_path)
